@@ -65,7 +65,6 @@ Boeing-style street-orientation roses for 5 Finnish vs 5 Vietnamese cities, scor
 
 ---
 
-**Currently:** building data platform tooling at Kesko · tinkering with open-data + urban-data side projects.
+**Currently:** building data platform tooling · tinkering with open-data + urban-data side projects.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-tranlongchau-0a66c2?logo=linkedin&logoColor=white)](https://linkedin.com/in/tranlongchau)
-[![Email](https://img.shields.io/badge/Email-longchau.tran%40outlook.com-c14438?logo=maildotru&logoColor=white)](mailto:longchau.tran@outlook.com)
