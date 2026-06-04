@@ -18,11 +18,11 @@
 
 ---
 
-I build and operate analytics data platforms for a living. Outside that:
+I build and operate analytics data platforms for a living. Off the clock I don't really stop:
 
-- **Open-data devotee** — I scrape, clean, and map Finnish & Vietnamese open data for fun.
-- **Bilingual bridge** — Vietnamese ↔ Finnish ↔ English (I once POS-tagged *Truyện Kiều* for the hell of it).
-- **I learn by building in public**, and I follow Helsinki urban planning closely enough to grep the PDFs.
+- **Open-data devotee** — I scrape, clean, and map Finnish & Vietnamese open data for fun, which I'm told is not a normal way to relax.
+- **Bilingual bridge** — Vietnamese ↔ Finnish ↔ English. I once POS-tagged *Truyện Kiều* (Vietnam's national epic) because a Tuesday evening demanded it.
+- **I learn by building in public** — and I follow Helsinki urban planning closely enough to grep the planning PDFs for underpasses. Cheerfully.
 
 ---
 
