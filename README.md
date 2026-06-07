@@ -2,9 +2,9 @@
 
 **Senior Data Engineer** — data platforms, lineage, reliability · Helsinki 🇫🇮
 
-![A street-orientation rose and the 15-minute-Helsinki map](assets/work-strip.png)
+![Street-orientation roses, the 15-minute-Helsinki map, a glowing place-names map of Vietnam, and the Bình Thạnh data-story](assets/work-strip.png)
 
-<sub>↑ from my own work: [Street Orientations](https://ihsara.github.io/street-orientations/) · [15-Minute Helsinki](https://ihsara.github.io/fifteen-min-helsinki/)</sub>
+<sub>↑ from my own work: [Street Orientations](https://ihsara.github.io/street-orientations/) · [15-Minute Helsinki](https://ihsara.github.io/fifteen-min-helsinki/) · [Fossils in the Map](https://ihsara.github.io/place-names/) · [Bình Thạnh, filling in](https://ihsara.github.io/binh-thanh-story/)</sub>
 
 ```python
 >>> import longchau as lc
@@ -29,6 +29,30 @@ I build and operate analytics data platforms for a living. Off the clock I don't
 ## Selected work
 
 <table>
+<tr>
+<td width="50%" valign="top">
+
+[<img src="assets/thumb-place-names.png" width="100%" alt="Glowing place-name map of Vietnam">](https://ihsara.github.io/place-names/)
+
+### [Fossils in the Map](https://ihsara.github.io/place-names/) · `live`
+
+Where place-name *morphemes* cluster across Finland, Sweden, and Vietnam — a glowing scrollytelling map. Finland names the land it sees; Vietnam names the order it imposes.
+*Shows: turning bilingual NLP into a story you can read on a map.*
+[code](https://github.com/Ihsara/place-names)
+
+</td>
+<td width="50%" valign="top">
+
+[<img src="assets/thumb-binh-thanh.png" width="100%" alt="Bình Thạnh data-story — a decade in OpenStreetMap">](https://ihsara.github.io/binh-thanh-story/)
+
+### [Bình Thạnh, filling in](https://ihsara.github.io/binh-thanh-story/) · `live`
+
+A decade of one Saigon district filling in on OpenStreetMap (2015→2025) — roads, cafés, daily life — told as a guided data-story off a live PostGIS history DB.
+*Shows: building a temporal geodata pipeline and making it readable.*
+[code](https://github.com/Ihsara/binh-thanh-story)
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
