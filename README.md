@@ -36,7 +36,7 @@ I build and operate analytics data platforms for a living. Off the clock I don't
 
 ### [Map Poster](https://ihsara.github.io/map-poster/web/poster.html) · `live` · `newest`
 
-Pan anywhere on Earth, pick a place, a theme, and a print layout — and export a poster-quality OSM map. Ships **758 named areas across six Vietnamese cities** (wards + legacy districts), a WYSIWYG A0→A5 preview, Vietnamese-aware typography, and a headless render CLI. Keyless basemap (OpenFreeMap).
+Pick a place, a theme, and a print layout — and export a poster-quality OSM map. Ships a curated catalog of **758 boundary-aware places across six Vietnamese cities** (wards + legacy districts, each clipped to its real administrative outline), plus a free-pan mode for anywhere else. WYSIWYG A0→A5 preview, Vietnamese-aware typography, and a headless render CLI. Keyless basemap (OpenFreeMap).
 *Shows: taking raw OSM all the way to a polished, self-serve product — data pipeline, cartography, and front-end.*
 [code](https://github.com/Ihsara/map-poster)
 
