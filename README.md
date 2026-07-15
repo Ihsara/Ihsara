@@ -2,9 +2,9 @@
 
 **Senior Data Engineer** — data platforms, lineage, reliability · Helsinki 🇫🇮
 
-![Street-orientation roses, the 15-minute-Helsinki map, a glowing place-names map of Vietnam, and the Bình Thạnh data-story](assets/work-strip.png)
+![Street-orientation roses, the 15-minute-Helsinki map, a glowing place-names map of Vietnam, the Bình Thạnh data-story, and a print-ready map poster](assets/work-strip.png)
 
-<sub>↑ from my own work: [Street Orientations](https://ihsara.github.io/street-orientations/) · [15-Minute Helsinki](https://ihsara.github.io/fifteen-min-helsinki/) · [Fossils in the Map](https://ihsara.github.io/place-names/) · [Bình Thạnh, filling in](https://ihsara.github.io/binh-thanh-story/)</sub>
+<sub>↑ from my own work: [Street Orientations](https://ihsara.github.io/street-orientations/) · [15-Minute Helsinki](https://ihsara.github.io/fifteen-min-helsinki/) · [Fossils in the Map](https://ihsara.github.io/place-names/) · [Bình Thạnh, filling in](https://ihsara.github.io/binh-thanh-story/) · [Map Poster](https://ihsara.github.io/map-poster/web/poster.html)</sub>
 
 ```python
 >>> import longchau as lc
@@ -29,6 +29,21 @@ I build and operate analytics data platforms for a living. Off the clock I don't
 ## Selected work
 
 <table>
+<tr>
+<td colspan="2" valign="top">
+
+[<img src="assets/thumb-map-poster.png" width="34%" align="left" alt="Print-ready OSM map poster of Bình Thạnh">](https://ihsara.github.io/map-poster/web/poster.html)
+
+### [Map Poster](https://ihsara.github.io/map-poster/web/poster.html) · `live` · `newest`
+
+Pan anywhere on Earth, pick a place, a theme, and a print layout — and export a poster-quality OSM map. Ships **758 named areas across six Vietnamese cities** (wards + legacy districts), a WYSIWYG A0→A5 preview, Vietnamese-aware typography, and a headless render CLI. Keyless basemap (OpenFreeMap).
+*Shows: taking raw OSM all the way to a polished, self-serve product — data pipeline, cartography, and front-end.*
+[code](https://github.com/Ihsara/map-poster)
+
+<br clear="left"/>
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
