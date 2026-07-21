@@ -2,9 +2,7 @@
 
 **Senior Data Engineer** — data platforms, lineage, reliability · Helsinki 🇫🇮
 
-![Street-orientation roses, the 15-minute-Helsinki map, a glowing place-names map of Vietnam, the Bình Thạnh data-story, and a print-ready map poster](assets/work-strip.png)
-
-<sub>↑ from my own work: [Street Orientations](https://ihsara.github.io/street-orientations/) · [15-Minute Helsinki](https://ihsara.github.io/fifteen-min-helsinki/) · [Fossils in the Map](https://ihsara.github.io/place-names/) · [Bình Thạnh, filling in](https://ihsara.github.io/binh-thanh-story/) · [Map Poster](https://ihsara.github.io/map-poster/web/poster.html)</sub>
+![A rotating banner of my open-data projects: map posters, transit ripples, place-name maps, citadels, street-orientation roses](assets/work-strip.gif)
 
 ```python
 >>> import longchau as lc
@@ -28,79 +26,116 @@ I build and operate analytics data platforms for a living. Off the clock I don't
 
 ## Selected work
 
+Nine of these are live. Three worth your time first:
+
 <table>
+<tr>
+<td width="50%" valign="top">
+
+[<img src="assets/thumb-map-poster.png" width="100%" alt="Print-ready OSM map poster of Bình Thạnh">](https://ihsara.github.io/map-poster/web/poster.html)
+
+### [Map Poster](https://ihsara.github.io/map-poster/web/poster.html) · `live`
+
+Pick a place, a theme, and a print layout — export a poster-quality OSM map. Ships a curated catalog of **758 boundary-aware places across six Vietnamese cities**, each clipped to its real administrative outline, plus free-pan for anywhere else. WYSIWYG A0→A5 preview, Vietnamese-aware typography, headless render CLI.
+
+*Shows: taking raw OSM all the way to a self-serve product — pipeline, cartography, front-end.*
+[code](https://github.com/Ihsara/map-poster)
+
+</td>
+<td width="50%" valign="top">
+
+[<img src="assets/thumb-world-ripples.png" width="100%" alt="Amsterdam's transit network breathing in light">](https://ihsara.github.io/world-ripples/)
+
+### [Cities, Breathing in Light](https://ihsara.github.io/world-ripples/) · `live` · `newest`
+
+Every time a bus, tram, or train reaches a stop, a ripple spreads along the streets a rider could walk in three minutes. Where ripples overlap, the city's pulse brightens. Helsinki and Amsterdam, from the same city-agnostic pipeline.
+
+*Shows: baked physics + WebGL2 playback, and a schema that survives a second city.*
+[code](https://github.com/Ihsara/world-ripples)
+
+</td>
+</tr>
 <tr>
 <td colspan="2" valign="top">
 
-[<img src="assets/thumb-map-poster.png" width="34%" align="left" alt="Print-ready OSM map poster of Bình Thạnh">](https://ihsara.github.io/map-poster/web/poster.html)
+[<img src="assets/thumb-place-names.png" width="34%" align="left" alt="Glowing place-name map of Vietnam">](https://ihsara.github.io/place-names/)
 
-### [Map Poster](https://ihsara.github.io/map-poster/web/poster.html) · `live` · `newest`
+### [Fossils in the Map](https://ihsara.github.io/place-names/) · `live`
 
-Pick a place, a theme, and a print layout — and export a poster-quality OSM map. Ships a curated catalog of **758 boundary-aware places across six Vietnamese cities** (wards + legacy districts, each clipped to its real administrative outline), plus a free-pan mode for anywhere else. WYSIWYG A0→A5 preview, Vietnamese-aware typography, and a headless render CLI. Keyless basemap (OpenFreeMap).
-*Shows: taking raw OSM all the way to a polished, self-serve product — data pipeline, cartography, and front-end.*
-[code](https://github.com/Ihsara/map-poster)
+Where place-name *morphemes* cluster across Finland, Sweden, and Vietnam — a glowing scrollytelling map. Finland names the land it sees; Vietnam names the order it imposes. *Long* — dragon, prosperity — lights up 81 places on its own.
+
+*Shows: turning bilingual NLP into a story you can read on a map.*
+[code](https://github.com/Ihsara/place-names)
 
 <br clear="left"/>
 
 </td>
 </tr>
+</table>
+
+### Also live
+
+<table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" align="center">
 
-[<img src="assets/thumb-place-names.png" width="100%" alt="Glowing place-name map of Vietnam">](https://ihsara.github.io/place-names/)
-
-### [Fossils in the Map](https://ihsara.github.io/place-names/) · `live`
-
-Where place-name *morphemes* cluster across Finland, Sweden, and Vietnam — a glowing scrollytelling map. Finland names the land it sees; Vietnam names the order it imposes.
-*Shows: turning bilingual NLP into a story you can read on a map.*
-[code](https://github.com/Ihsara/place-names)
+[<img src="assets/gallery-helsinki-ripples.png" width="100%" alt="Helsinki transit ripples, long exposure">](https://ihsara.github.io/helsinki-ripples/)<br>
+**[Helsinki, Breathing in Light](https://ihsara.github.io/helsinki-ripples/)**<br>
+<sub>The original single-city ripple map, plus five A2 long-exposure poster plates. · [code](https://github.com/Ihsara/helsinki-ripples)</sub>
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" align="center">
 
-[<img src="assets/thumb-binh-thanh.png" width="100%" alt="Bình Thạnh data-story — a decade in OpenStreetMap">](https://ihsara.github.io/binh-thanh-story/)
+[<img src="assets/gallery-helsinki-breathing.png" width="100%" alt="Helsinki's living transit map">](https://ihsara.github.io/helsinki-breathing/)<br>
+**[Helsinki, Breathing](https://ihsara.github.io/helsinki-breathing/)**<br>
+<sub>A morning of the HSL network: 5,384 vehicles as moving lights, passengers walking real streets. · [code](https://github.com/Ihsara/helsinki-breathing)</sub>
 
-### [Bình Thạnh, filling in](https://ihsara.github.io/binh-thanh-story/) · `live`
+</td>
+<td width="33%" align="center">
 
-A decade of one Saigon district filling in on OpenStreetMap (2015→2025) — roads, cafés, daily life — told as a guided data-story off a live PostGIS history DB.
-*Shows: building a temporal geodata pipeline and making it readable.*
-[code](https://github.com/Ihsara/binh-thanh-story)
+[<img src="assets/gallery-binh-thanh.png" width="100%" alt="Bình Thạnh data-story">](https://ihsara.github.io/binh-thanh-story/)<br>
+**[Bình Thạnh, Filling In](https://ihsara.github.io/binh-thanh-story/)**<br>
+<sub>A decade of one Saigon district appearing on OSM (2015→2025), off a live PostGIS history DB. · [code](https://github.com/Ihsara/binh-thanh-story)</sub>
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" align="center">
 
-[<img src="assets/thumb-fifteen-min.png" width="100%" alt="15-Minute Helsinki map">](https://ihsara.github.io/fifteen-min-helsinki/)
-
-### [15-Minute Helsinki](https://ihsara.github.io/fifteen-min-helsinki/) · `live`
-
-How many everyday needs sit within 15 minutes — by mode — across Helsinki. Open geodata turned into an interactive map.
-*Shows: turning messy open data into a platform people can actually use.*
-[code](https://github.com/Ihsara/fifteen-min-helsinki)
+[<img src="assets/gallery-nguyen-citadels.png" width="100%" alt="Nguyễn-dynasty citadels atlas">](https://ihsara.github.io/nguyen-citadels/)<br>
+**[Vauban Came East, Then Faded](https://ihsara.github.io/nguyen-citadels/)**<br>
+<sub>An atlas of 19 Nguyễn-dynasty star forts — traced from old plans onto their true sites. · [code](https://github.com/Ihsara/nguyen-citadels)</sub>
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" align="center">
 
-[<img src="assets/thumb-street-orientations.png" width="100%" alt="Street-orientation rose plots">](https://ihsara.github.io/street-orientations/)
+[<img src="assets/gallery-fifteen-min.png" width="100%" alt="15-Minute Helsinki map">](https://ihsara.github.io/fifteen-min-helsinki/)<br>
+**[The 15-Minute Helsinki](https://ihsara.github.io/fifteen-min-helsinki/)**<br>
+<sub>How many everyday needs sit within 15 minutes, by mode, across the city. · [code](https://github.com/Ihsara/fifteen-min-helsinki)</sub>
 
-### [Street Orientations](https://ihsara.github.io/street-orientations/) · `live`
+</td>
+<td width="33%" align="center">
 
-Boeing-style street-orientation roses for 5 Finnish vs 5 Vietnamese cities, scored by orientation entropy.
-*Shows: data that is both rigorous and nice to look at.*
-[code](https://github.com/Ihsara/street-orientations)
+[<img src="assets/gallery-street-orientations.png" width="100%" alt="Street-orientation rose plots">](https://ihsara.github.io/street-orientations/)<br>
+**[Street Orientations](https://ihsara.github.io/street-orientations/)**<br>
+<sub>Boeing-style orientation roses for 5 Finnish vs 5 Vietnamese cities, scored by entropy. · [code](https://github.com/Ihsara/street-orientations)</sub>
 
 </td>
 </tr>
 </table>
 
-### More things I've built
+<details>
+<summary><b>Other things I've built</b> — HPC tooling, a bureaucracy PWA, and open-data plumbing</summary>
+
+<br>
 
 | Project | What it is | Stack |
 |---|---|---|
-| [Pencil Code platform](https://github.com/Ihsara/pencil_platform) | Orchestrates large MHD/hydro parameter sweeps on SLURM HPC — YAML config-gen, job submission, automated error analysis, publication figures. | Python · SLURM · HPC |
+| [Pencil Platform](https://github.com/Ihsara/pencil-platform) | Campaign orchestration and analysis for Pencil Code simulations — a problem-agnostic core plus a consumer-plugin model, driving large MHD/hydro sweeps on SLURM HPC. | Python · SLURM · HPC |
 | [LivingInFinland](https://github.com/Ihsara/finland_works) | A gamified PWA that walks newcomers through Finnish bureaucracy (Migri / DVV / Kela / Vero) with cultural context. | PWA · JS |
 | [VN administrative boundaries](https://github.com/Ihsara/vietnam-administrative-boundary) | Clean reference lists/dicts for Vietnam's administrative reshuffles — the kind of tidy open-data plumbing I do for fun. | Python · open data |
+
+</details>
 
 ---
 
