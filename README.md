@@ -44,13 +44,13 @@ Pick a place, a theme, and a print layout — export a poster-quality OSM map. S
 </td>
 <td width="50%" valign="top">
 
-[<img src="assets/thumb-world-ripples.png" width="100%" alt="Amsterdam's transit network breathing in light">](https://ihsara.github.io/world-ripples/)
+[<img src="assets/thumb-world-ripples.png" width="100%" alt="Berlin's transit network breathing in light">](https://ihsara.github.io/world-ripples/)
 
 ### [Cities, Breathing in Light](https://ihsara.github.io/world-ripples/) · `live` · `newest`
 
-Every time a bus, tram, or train reaches a stop, a ripple spreads along the streets a rider could walk in three minutes. Where ripples overlap, the city's pulse brightens. Helsinki and Amsterdam, from the same city-agnostic pipeline.
+Every time a bus, tram, or train reaches a stop, a ripple spreads along the streets a rider could walk in three minutes. Where ripples overlap, the city's pulse brightens. Five cities — Helsinki, Amsterdam, Berlin, Vienna and Zürich — from the same city-agnostic pipeline.
 
-*Shows: baked physics + WebGL2 playback, and a schema that survives a second city.*
+*Shows: baked physics + WebGL2 playback, and an ingest that absorbs five national feeds — each with its own quirks — behind one schema.*
 [code](https://github.com/Ihsara/world-ripples)
 
 </td>

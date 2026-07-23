@@ -19,9 +19,13 @@ RAW, OUT = "assets/raw", "assets"
 # Fractional crops (left, upper, right, lower) as 0..1 of the source image.
 # Tuned by eyeballing each raw capture -- see the notes per project.
 CROPS = {
-    # Amsterdam ripples: canal-ring radial structure, centred on the lit core.
-    # Stop above the control chrome (y<0.72) so no UI buttons leak in.
-    "world-ripples":      (0.16, 0.02, 0.82, 0.72),
+    # world-ripples: BERLIN as of 2026-07-23 (was Amsterdam, captured when the
+    # app had only two cities; it now ships five). Berlin was chosen by looking
+    # at all five captures, not by the fill metric -- Amsterdam actually scores
+    # a higher lit-bbox fill (0.48 vs 0.45) but reads sparse and dim, while
+    # Berlin's S-Bahn ring and radial spokes are legible at thumbnail size.
+    # Centred crop; stop above the control chrome so no UI buttons leak in.
+    "world-ripples":      (0.20, 0.08, 0.80, 0.92),
     # Helsinki ripples: the coastal spine + dense downtown knot.
     "helsinki-ripples":   (0.26, 0.06, 0.76, 0.76),
     # Breathing: the full lit HSL network; skip the title block at top-left
@@ -47,7 +51,7 @@ CROPS = {
 
 # slug -> raw filename stem
 RAWNAME = {
-    "world-ripples": "world-ripples-full.png",
+    "world-ripples": "wr-berlin.png",
     "helsinki-ripples": "helsinki-ripples-full.png",
     "helsinki-breathing": "helsinki-breathing-full.png",
     "nguyen-citadels": "nguyen-citadels-full.png",
@@ -105,7 +109,11 @@ for slug in GALLERY:
 # capture is horizontally dense.
 BANNER_CROPS = {
     "map-poster":         (0.04, 0.30, 0.62, 0.72),
-    "world-ripples":      (0.16, 0.16, 0.82, 0.62),
+    # Berlin: placed from a MEASURED ink profile, not by eye (the first guess
+    # left the network in the top half over a dead band). Excluding the player
+    # chrome, the network spans y 0.154-0.819 / x 0.198-0.698, and the densest
+    # banner-height band is y 0.372-0.569. Crop is centred on that band.
+    "world-ripples":      (0.20, 0.36, 0.70, 0.58),
     # Vietnam is portrait: take a wide band across the SOUTHERN cluster, where
     # the lit dots are densest, rather than the whole country.
     "place-names":        (0.24, 0.55, 0.72, 0.86),
